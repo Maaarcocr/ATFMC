@@ -14,8 +14,8 @@ To make the script works first download it with the folder resources. Then copy 
 in the folder where you graph script is. 
 Secondly and finally run these commands in your terminal: 
 ```sh
- chmod u+x ./script.sh
- ./script
+ $ chmod u+x ./script.sh
+ $ ./script.sh
 ```
 Now the script should run and you should read from the terminal if your model checker has generated the 
 correct answers. 
