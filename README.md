@@ -16,4 +16,4 @@ Secondly and finally run these commands in your terminal:
 Now the script should run and you should read from the terminal if your model checker has generated the 
 correct answers.
 
-N.B. You need to have ghci installed in your machine to run the script.
+N.B. You need to have ghci installed in your machine in order to run the script.
