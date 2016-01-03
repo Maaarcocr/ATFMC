@@ -16,8 +16,8 @@ $ gcc -o graph graph.c
 
 Secondly and finally run these commands in your terminal: 
 ```sh
- $ chmod u+x ./script.sh
- $ ./script.sh
+$ chmod u+x ./script.sh
+$ ./script.sh
 ```
 Now the script should run and you should read from the terminal if your model checker has generated the 
 correct answers.
