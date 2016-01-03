@@ -8,7 +8,11 @@ Now I want to share what I have done to help my coursemates and also to share my
 
 ##How to use the script:
 
-To make the script works first download it with the folder resources. Then copy and paste both the script and the resources in the folder where you graph script is.
+To make the script works first download it with the folder resources. Then copy and paste both the script and the resources in the folder where you graph script is. Please make sure that you have compiled your graph.c using: 
+
+```
+$ gcc -o graph graph.c
+```
 
 Secondly and finally run these commands in your terminal: 
 ```sh
