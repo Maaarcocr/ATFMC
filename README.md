@@ -22,4 +22,12 @@ $ ./script.sh
 Now the script should run and you should read from the terminal if your model checker has generated the 
 correct answers.
 
+In case the script gives you some errors or strange results be sure that your main function, in graph.c, prints at the very end either:
+```c
+printf("The formula %s is true\n", name); 
+```
+or:
+```c
+printf("The formula %s is false\n", name);
+```
 N.B. You need to have ghci installed in your machine in order to run the script.
