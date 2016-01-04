@@ -22,7 +22,7 @@ $ ./script.sh
 Now the script should run and you should read from the terminal if your model checker has generated the 
 correct answers.
 
-In case the script gives you some errors or strange results be sure that your main function in graph.c looks like this:
+In case the script gives you some errors or strange results be sure that your main function in graph.c looks like this (it is really important that you have a new line each printf):
 
 ```c
 int main()
@@ -79,7 +79,5 @@ value of z in V[2] */
   return(1);
 }
 ```
-
-It is really important to have a new line each printf. 
 
 N.B. You need to have ghci installed in your machine in order to run the script.
