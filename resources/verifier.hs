@@ -14,4 +14,3 @@ main = do
   hClose tempHandle
   removeFile "./resources/responses.txt"
   renameFile tempName "./resources/responses.txt"
-	  
