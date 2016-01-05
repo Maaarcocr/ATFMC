@@ -7,7 +7,7 @@ ghc --make readingTest
 ghc --make verifier
 cd ..
 COUNTER=0
-while [ $COUNTER -lt 13 ]; do
+while [ $COUNTER -lt 17 ]; do
 	let COUNTER=COUNTER+1
 	echo test_number: $COUNTER
 	./resources/readingTest | ./graph | ./resources/verifier
